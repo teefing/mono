@@ -1,0 +1,32 @@
+{
+  "name": "@teefing/vite-react",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "test": "jest",
+    "lint": "eslint .",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@vitejs/plugin-react": "^1.0.7",
+    "autoprefixer": "^10.4.2",
+    "husky": "^7.0.4",
+    "jest": "^27.5.1",
+    "lint-staged": "^12.3.7",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23",
+    "typescript": "^4.5.4",
+    "unplugin-auto-import": "^0.6.6",
+    "vite": "^2.8.0",
+    "vite-tsconfig-paths": "^3.4.1"
+  }
+}
