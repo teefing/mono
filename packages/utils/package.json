@@ -1,0 +1,13 @@
+{
+  "name": "@teefing/utils",
+  "version": "1.0.0",
+  "description": "util library",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "tengfeitf@foxmail.com",
+  "license": "ISC"
+}
